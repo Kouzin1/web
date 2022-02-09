@@ -36,7 +36,10 @@ a:hover {
 html    {
     box-sizing: border-box;
 }
-
+.gradient    {
+    background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
+    height: 2px;
+}
 #intro  {
     padding: 4rem 1rem 10rem 1rem;
     max-width: 1200px;
@@ -74,6 +77,9 @@ h2  {
 
 .section-plum   {
     background-color: var(--plum);
+}
+.section-dkblue {
+    background-color: var(--dkblue);
 }
 #contact p:last-child   {
     margin-top: 3rem;
@@ -152,6 +158,51 @@ footer ul   {
     justify-content: center;
     gap: 3rem;
     font-size: 3rem;
+}
+
+#projects    {
+    padding: 4rem 1rem;
+}
+
+#projects h2    {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+#projects h3    {
+    color: var(--aqua);
+}
+
+#projects h4    {
+    font-size: 1rem;
+    font-family: var(--mono);
+}
+
+#projects ul    {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.screen-shot    {
+    margin: 2rem 0 4rem 0;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
+    padding: 1rem;
+}
+.blackbox   {
+    background-color: var(--black);
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 /*
 @media (min-width: 850px)   {
